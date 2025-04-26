@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="rps.css" class="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title">ROCK PAPER</h1>
+    <br /><br /><br />
+    <h1 class="title">SCISSOR</h1>
+    <br /><br /><br />
+    <div class="main">
+      <div class="sec1">
+        <div id="col1">
+          <h1>
+            Opponent Score :
+            <span id="opponent-point">0</span>
+          </h1>
+        </div>
+        <div id="col2">
+          <img id="opponent-selection" />
+        </div>
+        <div id="col3">
+          <img id="my-selection" />
+        </div>
+        <div id="col4">
+          <h1>
+            My Score :
+            <span id="my-point">0</span>
+          </h1>
+        </div>
+      </div>
+      <br /><br />
+      <div class="sec2">
+        <div id="options"></div>
+        <button onClick="resetGame()" id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="rps.js"></script>
+  </body>
+</html>
